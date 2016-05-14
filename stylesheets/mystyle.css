@@ -1,3 +1,55 @@
-section.page-header {
-  color: red;
+body {
+  font-size: 14px;
 }
+
+.page-header {
+ color: #d1ba7b;
+ text-align: left;
+ background-color: #d8d8d8;
+ font-size: 140%;
+}
+
+.introduce {
+  margin: 0px 0px 32px 0px;
+  padding: 20px;
+  font-size: 48px;
+  font-weight: bold;;
+  line-height: 1.5em;
+
+}
+nav {
+  margin: 0px 0px 32px 0px;
+
+}
+nav ul {
+  margin: 0px;
+  list-style: none;
+  padding: 20px;
+}
+
+nav ul li {
+  font-size: 1.4em;
+  font-weight: bold;
+  display: inline;
+  padding: 14px;
+  margin: 10px;
+}
+
+.site-footer {
+  font-size: small;
+  color: #a9a9a9;
+  text-decoration: none;
+}
+
+
+/*@media screen and (min-width: 64em) {
+  .page-header {
+    padding: 1rem 1rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .page-header {
+    padding: 1rem 1rem; } }
+
+@media screen and (max-width: 42em) {
+  .page-header {
+    padding: 1rem 1rem; } }*/
