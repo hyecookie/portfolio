@@ -45,12 +45,12 @@ header {
 }
 
 
-ul {
+nav ul {
   margin: 0px;
   list-style: none;
 }
 
-li {
+nav ul li {
   font-size: 1.4em;
   font-weight: bold;
   display: inline;
@@ -68,9 +68,21 @@ li {
   clear: left;
 }
 
+.project {
+  padding: 20px;
+  position: relative;
+}
 
 
-
+.project1 {
+  /*position: absolute;*/
+  display: inline-block;;
+  width:200px;
+  height: 200px;
+  /*padding: 10px;*/
+  margin: : 8px;
+  background-color: red;
+}
 
 /*@media screen and (min-width: 64em) {
   .page-header {
