@@ -30,7 +30,7 @@ header {
  display: table;
  /*position: absolute;*/
  width: 100%;
- height: 80px;
+ height: 76px;
  position: fixed;
  z-index: 10;
  background-color: rgba(255, 255, 255, 0.98);
@@ -46,7 +46,7 @@ header {
   position: absolute;
   right: 0;
   top: 50%;
-  margin-top: -15px
+  margin-top: -10px
 }
 
 .logo {
@@ -62,20 +62,22 @@ header {
 nav ul {
   margin: 0px;
   list-style: none;
+  vertical-align: middle;
+
 }
 
 nav ul li {
-  font-size: 1.4em;
+  font-size: 120%;
   font-weight: bold;
   display: inline;
   padding: 14px;
-  margin: 0px 0px 0px 20px;
-
+  margin: 20px;
+  vertical-align: middle;
 }
 
 .introduce {
   margin: 0px 0px 32px 0px;
-  padding: 120px 20px;
+  padding: 120px 20px 60px 20px;
   font-size: 48px;
   font-weight: bold;
   line-height: 1.5em;
@@ -88,51 +90,73 @@ nav ul li {
   text-align: center;
 }
 
-.project1 {
+.project-cell {
   display: inline-block;
-  width: 400px;
-  height: 400px;
+  width: 364px;
+  height: 273px;
   background-color: #d8d8d8;
+  margin: 20px 8px;
 }
-/*
-.box a:hover{
-  width: 400px;
-  height: 40%;
-  transition: all 0.3s ease-out;
-  background-color: rgba(255, 255, 255, 0.9);
-}*/
 
-.box {
-  vertical-align: middle;
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 400px;
-  height: 400px;
+.box-1 {
+  display: inline-block;
+  width: 364px;
+  height: 273px;
+  background-color: #d8d8d8;
   background-size: cover;
+  background-image: url("../img/thumb-1.png");
   background-repeat: no-repeat;
-  background-image: url("../img/etri4.png");
-
 }
 
+.box-2 {
+  display: inline-block;
+  width: 364px;
+  height: 273px;
+  background-color: #d8d8d8;
+  background-size: cover;
+  background-image: url("../img/thumb-2.png");
+  background-repeat: no-repeat;
+}
+
+.box-3 {
+  display: inline-block;
+  width: 364px;
+  height: 273px;
+  background-color: #d8d8d8;
+  background-size: cover;
+  background-image: url("../img/thumb-3.jpg");
+  background-repeat: no-repeat;
+}
+
+.project-area {
+  vertical-align: middle;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 50%;
+
+}
 
 .title {
   width: 100%;
-  /*height: 50%;*/
   vertical-align: middle;
   float: left;
   margin: 0px;
-  padding: 16px;
+  padding: 20px 20px 8px 20px;
   text-align: left;
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: 700;
 }
 
 .discription {
+  line-height: 1.3em;
   vertical-align: middle;
   float: left;
-  padding: 0 16px;
+  padding: 0 20px;
   margin: 0px;
-
+  font-weight: normal;
   text-align: left;
-  font-size: 14px;
+  font-size: 95%;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -152,8 +176,7 @@ nav ul li {
 }
 
 
-
-/*@media screen and (min-width: 64em) {
+@media screen and (min-width: 640px) {
   .page-header {
     padding: 1rem 1rem; } }
 
@@ -163,4 +186,4 @@ nav ul li {
 
 @media screen and (max-width: 42em) {
   .page-header {
-    padding: 1rem 1rem; } }*/
+    padding: 1rem 1rem; } }
