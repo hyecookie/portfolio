@@ -119,9 +119,10 @@ nav ul li {
   height: 273px;
   background-color: #d8d8d8;
   background-size: cover;
-  background-image: url("../img/thumb-1.png");
+  background-image: url("../img/thumb-3.jpg");
   background-repeat: no-repeat;
 }
+
 
 .box-2 {
   display: inline-block;
@@ -129,17 +130,7 @@ nav ul li {
   height: 273px;
   background-color: #d8d8d8;
   background-size: cover;
-  background-image: url("../img/9thumb-2.png");
-  background-repeat: no-repeat;
-}
-
-.box-3 {
-  display: inline-block;
-  width: 364px;
-  height: 273px;
-  background-color: #d8d8d8;
-  background-size: cover;
-  background-image: url("../img/thumb-3.jpg");
+  background-image: url("../img/thumb-1.png");
   background-repeat: no-repeat;
 }
 
