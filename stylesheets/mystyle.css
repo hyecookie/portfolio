@@ -293,66 +293,20 @@ nav ul li {
   vertical-align: middle;
 }
 .head-img-imagin12 {
-  width: 337px;
-  height: 337px;
+  width: 960px;
+  height: 960px;
   margin: 0px 0px 32px 0px;
   background-image: url("../img/imagin/imagin12.png");
   background-repeat: no-repeat;
   display: inline-block;
   vertical-align: middle;
 }
-.head-img-imagin13 {
-  width: 337px;
-  height: 337px;
-  margin: 0px 0px 32px 0px;
-  background-image: url("../img/imagin/imagin13.png");
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: middle;
-}
-.head-img-imagin14 {
-  width: 337px;
-  height: 337px;
-  margin: 0px 0px 32px 0px;
-  background-image: url("../img/imagin/imagin14.png");
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: middle;
-}
-.head-img-imagin15 {
-  width: 337px;
-  height: 337px;
-  margin: 0px 0px 32px 0px;
-  background-image: url("../img/imagin/imagin15.png");
-  background-repeat: no-repeat;
-  display: inline-table;
-  vertical-align: middle;
-}
-.head-img-imagin16 {
-  width: 337px;
-  height: 337px;
-  margin: 0px 0px 32px 0px;
-  background-image: url("../img/imagin/imagin16.png");
-  background-repeat: no-repeat;
-  display: inline-table;
-  vertical-align: middle;
-}
-.head-img-imagin17 {
-  width: 337px;
-  height: 337px;
-  margin: 0px 0px 32px 0px;
-  background-image: url("../img/imagin/imagin17.png");
-  background-repeat: no-repeat;
-  display: inline-table;
-  vertical-align: middle;
-}
-
 
 .project-title {
   font-family: 'Source+Sans+Pro', sans-serif;
   margin: 48px 0px 0px 0px;
   padding: 0px 0px 16px 0px;
-  font-size: 28px;
+  font-size: 24px;
   /*font-weight: 600;*/
   text-align: left;
   line-height: 1.3em;
@@ -365,7 +319,7 @@ nav ul li {
   /*float: left;*/
   margin: 0px;
   padding: 0px 0px 16px 0px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   text-align: left;
   line-height: 1.3em;
@@ -377,7 +331,7 @@ nav ul li {
   /*float: left;*/
   margin: 0px;
   padding: 0px 0px 16px 0px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   text-align: left;
   line-height: 1.5em;
@@ -389,7 +343,7 @@ nav ul li {
   font-family: 'Source+Sans+Pro', sans-serif;
   margin: 0px;
   padding: 0px 0px 16px 0px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   text-align: left;
   line-height: 1.3em;
