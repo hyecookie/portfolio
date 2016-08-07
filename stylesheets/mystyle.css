@@ -216,20 +216,10 @@ nav ul li {
   background-repeat: no-repeat;
 }
 .head-img-imagin3 {
-  width: 340px;
-  height: 258px;
-  margin: 0px 96px 32px 0px;
+  width: 780px;
+  height: 173px;
+  margin: 32px 0px 32px 0px;
   background-image: url("../img/imagin/imagin3.png");
-  background-repeat: no-repeat;
-  display: inline-table;
-  vertical-align: middle;
-}
-
-.head-img-imagin4 {
-  width: 340px;
-  height: 258px;
-  margin: 0px 0px 32px 0px;
-  background-image: url("../img/imagin/imagin4.png");
   background-repeat: no-repeat;
   display: inline-table;
   vertical-align: middle;
