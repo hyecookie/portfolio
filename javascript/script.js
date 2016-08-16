@@ -28,6 +28,19 @@ function showSlides(n) {
 
 
 
+
+var slideIndex = 9;
+showSlides1(slideIndex);
+
+function plusSlides(n) {
+  showSlides1(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides1(slideIndex = n);
+}
+
+
 function showSlides1(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides1");
