@@ -199,9 +199,9 @@ nav ul li {
 }
 
 .project-ui {
-  max-width: 1036px;
+  max-width: 1116px;
   margin: auto;
-  padding: 72px;
+  padding: 72px 32px;
   background-color: #fbfbfb;
 }
 
@@ -209,7 +209,7 @@ nav ul li {
 .project-title {
   font-family: 'Source+Sans+Pro', sans-serif;
   margin: 0px;
-  padding: 96px 0px 16px 0px;
+  padding: 120px 0px 16px 0px;
   font-size: 28px;
   text-align: left;
   line-height: 1.3em;
@@ -269,13 +269,16 @@ nav ul li {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1180px;
+  max-width: 1116px;
   position: relative;
   margin: auto;
+
+  padding: 72px 32px;
+  background-color: #fbfbfb;
+
 }
 
-/* Next & previous buttons */
-.prev, .next {
+.prev, .next, .prev-1, .next-1 {
   cursor: pointer;
   position: absolute;
   top: 0;
@@ -290,25 +293,31 @@ nav ul li {
   border-radius: 0 3px 3px 0;
 }
 
-/* Position the "next button" to the right */
-.next {
+.next, .next-1{
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 4px 0 0 4px;
+  background-color: rgba(0,0,0,0.1);
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+
+.prev, .prev-1 {
+  left: 0;
+  border-radius: 0 4px 4px 0;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.prev:hover, .next:hover ,.prev-1:hover, .next-1:hover{
+  background-color: rgba(0,0,0,0.4);
 }
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
   position: absolute;
-  bottom: 8px;
-  width: 100%;
+  text-align: center;
+  /*bottom: 36px;*/
+  padding: 16px 0;
   text-align: center;
 }
 
@@ -322,19 +331,19 @@ nav ul li {
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot, .dot1 {
   cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
+  height: 6px;
+  width: 6px;
+  margin: 0 4px;
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Fading animation */
