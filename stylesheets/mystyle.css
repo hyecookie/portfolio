@@ -174,18 +174,37 @@ nav ul li {
   color: rgba(0, 0, 0, 0.7);
 }
 
+.project-page-head {
+  max-width: 1180px;
+  margin: auto;
+  padding: 72px, 0px, 0px, 0px;
+}
+
 
 .project-page {
   max-width: 1180px;
   margin: auto;
-  /*padding: 72px 0*/
 }
 
 .project-contents {
   max-width: 780px;
   margin: auto;
-  /*padding: 72px 0*/;
 }
+
+
+.project-contents-shadow {
+  max-width: 780px;
+  margin: auto;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+}
+
+.project-ui {
+  max-width: 1036px;
+  margin: auto;
+  padding: 72px;
+  background-color: #fbfbfb;
+}
+
 
 .project-title {
   font-family: 'Source+Sans+Pro', sans-serif;
@@ -234,11 +253,23 @@ nav ul li {
   color: #555555;
 }
 
+.project-discription-medium-section {
+  font-family: 'Source+Sans+Pro', sans-serif;
+  margin: 0px;
+  padding: 96px 0px 16px 0px;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: left;
+  line-height: 1.3em;
+  color: #555555;
+}
+
+
 
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 780px;
+  max-width: 1180px;
   position: relative;
   margin: auto;
 }
