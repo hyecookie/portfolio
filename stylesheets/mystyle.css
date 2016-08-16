@@ -176,9 +176,9 @@ nav ul li {
 
 
 .project-page {
-  max-width: 960px;
+  max-width: 1180px;
   margin: auto;
-  /*padding: 72px 0*/;
+  /*padding: 72px 0*/
 }
 
 .project-contents {
@@ -187,86 +187,11 @@ nav ul li {
   /*padding: 72px 0*/;
 }
 
-.head-img-etri {
-  width: 100%;
-  height: 360px;
-  margin: 0px 0px 42px 0px;
-  background-image: url("../img/etri/etri1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-
-}
-
-.head-img-imagin1 {
-  width: 100%;
-  height: 560px;
-  margin: 72px 0px 72px 0px;
-  background-image: url("../img/imagin/imagin1.png");
-  background-color: rgba(0, 0, 0, 0.5);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.head-img-imagin2 {
-  width: 100%;
-  height: 260px;
-  margin: 0px 0px 32px 0px;
-  background-image: url("../img/imagin/imagin2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.head-img-imagin3 {
-  width: 780px;
-  height: 173px;
-  margin: 0px 0px 72px 0px;
-  background-image: url("../img/imagin/imagin3.png");
-  background-repeat: no-repeat;
-  display: inline-table;
-  vertical-align: middle;
-}
-
-.head-img-imagin4 {
-  width: 940px;
-  height: 2950px;
-  margin: 0px 0px 72px 0px;
-  background-image: url("../img/imagin/imagin4.png");
-  background-repeat: no-repeat;
-  display: inline-table;
-  vertical-align: middle;
-}
-
-
-.head-img-imagin5 {
-  width: 780px;
-  height: 156px;
-  margin: 0px 0px 72px 0px;
-  background-image: url("../img/imagin/imagin5.png");
-  display: inline-table;
-  background-repeat: no-repeat;
-}
-.head-img-imagin6 {
-  width: 780px;
-  height: 662px;
-  margin: 0px 0px 72px 0px;
-  background-image: url("../img/imagin/imagin6.png");
-  background-repeat: no-repeat;
-  display: inline-table;
-  vertical-align: middle;
-}
-
-  background-image: url("../img/imagin/imagin10.png");
-  background-repeat: no-repeat;
-  display: inline-table;
-  vertical-align: middle;
-}
-
-
 .project-title {
   font-family: 'Source+Sans+Pro', sans-serif;
-  margin: 72px 0px 0px 0px;
-  padding: 0px 0px 16px 0px;
+  margin: 0px;
+  padding: 96px 0px 16px 0px;
   font-size: 28px;
-  /*font-weight: 600;*/
   text-align: left;
   line-height: 1.3em;
   clear: left;
@@ -289,7 +214,7 @@ nav ul li {
   font-family: 'Source+Sans+Pro', sans-serif;
   /*float: left;*/
   margin: 0px;
-  padding: 0px 0px 64px 0px;
+  padding: 0px 0px 96px 0px;
   font-size: 16px;
   font-weight: normal;
   text-align: left;
@@ -303,12 +228,102 @@ nav ul li {
   margin: 0px;
   padding: 0px 0px 16px 0px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 900;
   text-align: left;
   line-height: 1.3em;
   color: #555555;
 }
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 780px;
+  position: relative;
+  margin: auto;
 }
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
 
 .nav-style a:link {
   text-decoration: none;
