@@ -222,6 +222,12 @@ nav ul li {
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
 }
 
+
+.project-contents-video {
+  max-width: 780px;
+  margin: auto;
+}
+
 .project-ui {
   max-width: 1116px;
   margin: auto;
