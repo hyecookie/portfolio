@@ -176,8 +176,7 @@ nav ul li {
 
 .project-page-head {
   max-width: 1180px;
-  margin: auto;
-  padding: 72px, 0px, 0px, 0px;
+  margin: 72px 0px 0px 0px;
 }
 
 
@@ -187,9 +186,34 @@ nav ul li {
 }
 
 .project-contents {
-  max-width: 780px;
+  max-width: 812px;
   margin: auto;
 }
+
+.project-contents-img1 {
+  max-width: 508px;
+  position: relative;
+  margin: auto;
+  padding: 0 16px;
+  /*background-color: #fbfbfb;*/
+}
+
+.project-contents-img2 {
+  max-width: 515px;
+  position: relative;
+  margin: auto;
+  padding: 0 16px;
+  /*background-color: #fbfbfb;*/
+}
+
+
+.project-contents-img3 {
+  max-width: 812px;
+  position: relative;
+  margin: auto;
+  padding: 32px 16px;
+}
+
 
 
 .project-contents-shadow {
@@ -209,7 +233,7 @@ nav ul li {
 .project-title {
   font-family: 'Source+Sans+Pro', sans-serif;
   margin: 0px;
-  padding: 120px 0px 16px 0px;
+  padding: 120px 16px 16px 16px;
   font-size: 28px;
   text-align: left;
   line-height: 1.3em;
@@ -221,7 +245,7 @@ nav ul li {
   font-family: 'Source+Sans+Pro', sans-serif;
   /*float: left;*/
   margin: 0px;
-  padding: 0px 0px 16px 0px;
+  padding: 0px 16px 16px 16px;
   font-size: 18px;
   font-weight: normal;
   text-align: left;
@@ -233,7 +257,7 @@ nav ul li {
   font-family: 'Source+Sans+Pro', sans-serif;
   /*float: left;*/
   margin: 0px;
-  padding: 0px 0px 96px 0px;
+  padding: 0px 16px 96px 16px;
   font-size: 16px;
   font-weight: normal;
   text-align: left;
@@ -245,7 +269,7 @@ nav ul li {
 .project-discription-medium {
   font-family: 'Source+Sans+Pro', sans-serif;
   margin: 0px;
-  padding: 0px 0px 16px 0px;
+  padding: 0px 16px 16px 16px;
   font-size: 18px;
   font-weight: 900;
   text-align: left;
@@ -256,7 +280,7 @@ nav ul li {
 .project-discription-medium-section {
   font-family: 'Source+Sans+Pro', sans-serif;
   margin: 0px;
-  padding: 96px 0px 16px 0px;
+  padding: 96px 16px 16px 16px;
   font-size: 18px;
   font-weight: 900;
   text-align: left;
