@@ -20,7 +20,8 @@ body {
   bottom: 0px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding: 20px;
-  position: relative;
+  /*position: relative;*/
+  margin-top: 160px;
   bottom: 0;
   background: rgba(255, 255, 255, 0.5);
   clear: left;
@@ -142,6 +143,7 @@ nav ul li {
   background-image: url("../img/thumb-1.png");
   background-repeat: no-repeat;
 }
+
 .project-area {
   transition: all 0.25s ease-in;
   vertical-align: middle;
@@ -188,6 +190,16 @@ nav ul li {
 .project-contents {
   max-width: 812px;
   margin: auto;
+}
+
+.project-head-img {
+  max-width: 100%;
+  min-height: 560px;
+  margin: 72px auto 0px;
+  display: block;
+  background-image: url(../img/imagin/imagin0.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .project-contents-img1 {
@@ -242,6 +254,23 @@ nav ul li {
   background-color: #fbfbfb;
 }
 
+
+.project-head-text-area {
+  width: 780px;
+  position: absolute;
+
+}
+
+
+.project-head-title {
+  font-family: 'Source+Sans+Pro', sans-serif;
+  margin: 0px;
+  font-size: 42px;
+  text-align: left;
+  line-height: 1.3em;
+  clear: left;
+  color: #fff;
+}
 
 .project-title {
   font-family: 'Source+Sans+Pro', sans-serif;
@@ -317,13 +346,11 @@ nav ul li {
 
 
 
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1116px;
   position: relative;
   margin: auto;
-
   padding: 72px 32px;
   background-color: #fbfbfb;
 
