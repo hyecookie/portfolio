@@ -1,9 +1,5 @@
 var slideIndex = 1;
 var slideIndex1 = 1;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/gh-pages
 
 showSlides(slideIndex);
 
@@ -58,9 +54,5 @@ function showSlides1(n) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex1-1].style.display = "block";
-<<<<<<< HEAD
   dots[slideIndex1-1].className += "active";
-=======
-  dots[slideIndex1-1].className += " active";
->>>>>>> origin/gh-pages
 }
