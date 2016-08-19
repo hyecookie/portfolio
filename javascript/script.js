@@ -1,5 +1,5 @@
 var slideIndex = 1;
-var slideIndex1 = 10;
+var slideIndex1 = 1;
 
 showSlides(slideIndex);
 
@@ -40,17 +40,17 @@ function currentSlide1(n) {
 
 function showSlides1(n) {
   var i;
-  var slides1 = document.getElementsByClassName("mySlides1");
-  var dots1 = document.getElementsByClassName("dot1");
-  if (n > 18) {slideIndex1 = 10;}
-  if (n < 10 ) {slideIndex1 = 18;}
+  var slides = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("dot1");
+  if (n > slides.length) {slideIndex1 = 1;}
+  if (n < 1) {slideIndex1 = slides.length;}
 
-  for (i = 0; i < slides1.length; i++) {
-      slides1[i].style.display = "none";
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
   }
-  for (i = 0; i < dots1.length; i++) {
-      dots1[i].className = dots1[i].className.replace(" active", "");
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides1[slideIndex-1].style.display = "block";
-  dots1[slideIndex1-1].className += " active";
+  slides[slideIndex1-1].style.display = "block";
+  dots[slideIndex1-1].className += " active";
 }
