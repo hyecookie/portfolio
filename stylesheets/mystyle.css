@@ -502,6 +502,29 @@ nav ul li {
   vertical-align: middle;
 }
 
+.site-go{
+  /*float: inherit;*/
+  text-align: center;
+  margin: auto;
+  padding: 0 16px;
+}
+
+.site-go a:link {
+  /*text-decoration: none;*/
+  color: #a9a9a9;
+}
+
+.site-go a:hover {
+  color: #d1ba7b;
+  transition: all 0.3s ease-out;
+}
+
+
+.site-go a:visited {
+  text-decoration: none;
+  color: #a9a9a9;
+}
+
 
 @media screen and (min-width: 640px) {
   .page-header {
