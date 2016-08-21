@@ -272,6 +272,13 @@ nav ul li {
   background-color: #fbfbfb;
 }
 
+.project-ui-dark {
+  max-width: 1116px;
+  margin: auto;
+  padding: 72px 32px;
+  background-color: #fbfbfb;
+}
+
 .project-ui-none {
   max-width: 1180px;
   margin: auto;
@@ -494,6 +501,8 @@ nav ul li {
 
 
 .nav-style a:link {
+  color: #222222;
+
   text-decoration: none;
 }
 
