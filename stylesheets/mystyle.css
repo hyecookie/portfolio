@@ -413,7 +413,7 @@ nav ul li {
 
 }
 
-.prev, .next, .prev-1, .next-1 {
+.prev, .next {
   cursor: pointer;
   position: absolute;
   top: 0;
@@ -428,20 +428,20 @@ nav ul li {
   border-radius: 0 3px 3px 0;
 }
 
-.next, .next-1{
+.next {
   right: 0;
   border-radius: 4px 0 0 4px;
   background-color: rgba(0,0,0,0.1);
 }
 
 
-.prev, .prev-1 {
+.prev {
   left: 0;
   border-radius: 0 4px 4px 0;
   background-color: rgba(0,0,0,0.1);
 }
 
-.prev:hover, .next:hover ,.prev-1:hover, .next-1:hover{
+.prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.4);
 }
 
