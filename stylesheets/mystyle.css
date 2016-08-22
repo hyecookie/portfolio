@@ -117,38 +117,53 @@ nav ul li {
 
 .box-1 {
   display: inline-block;
-  width: 364px;
-  height: 273px;
+  width: 360px;
+  height: 280px;
   background-color: #d8d8d8;
   background-size: cover;
-  background-image: url("../img/thumb-3.jpg");
+  background-image: url("../img/imagin/thumb.png");
   background-repeat: no-repeat;
 }
 
 .box-2 {
   display: inline-block;
-  width: 364px;
-  height: 273px;
+  width: 360px;
+  height: 280px;
   background-color: #d8d8d8;
   background-size: cover;
-  background-image: url("../img/thumb-1.png");
+  background-image: url("../img/ne/thumb.png");
   background-repeat: no-repeat;
 }
 
 .box-3 {
   display: inline-block;
-  width: 364px;
-  height: 273px;
+  width: 360px;
+  height: 280px;
   background-color: #d8d8d8;
   background-size: cover;
-  background-image: url("../img/thumb-1.png");
+  background-image: url("../img/piki_3.0/thumb.png");
   background-repeat: no-repeat;
 }
+
+
+
+
+.box-4 {
+  display: inline-block;
+  width: 360px;
+  height: 280px;
+  background-color: #d8d8d8;
+  background-size: cover;
+  background-image: url("../img/etri/thumb.png");
+  background-repeat: no-repeat;
+}
+
+
 
 .project-area {
   transition: all 0.25s ease-in;
   vertical-align: middle;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 100%;
 }
@@ -158,6 +173,7 @@ nav ul li {
 .title {
   width: 100%;
   vertical-align: middle;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
   float: left;
   margin: 0px;
   padding: 24px 24px 8px 24px;
@@ -182,9 +198,10 @@ nav ul li {
 
 
 
-.discription {
+.description {
   line-height: 1.3em;
   vertical-align: middle;
+  text-shadow: 1px 1px  rgba(0, 0, 0, 0.2);
   float: left;
   padding: 0 24px;
   margin: 0px;
