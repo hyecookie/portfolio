@@ -201,6 +201,16 @@ nav ul li {
 }
 
 
+.box-about {
+  display: inline-block;
+  width: 360px;
+  height: 280px;
+  background-color: #d8d8d8;
+  background-size: cover;
+  background-image: url("../img/about/thumb.png");
+  background-repeat: no-repeat;
+}
+
 
 .project-area {
   transition: all 0.25s ease-in;
