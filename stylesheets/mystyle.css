@@ -112,7 +112,7 @@ nav ul li {
   width: 360px;
   height: 280px;
   background-color: #d8d8d8;
-  margin: 20px 8px;
+  margin: 16px 8px;
 }
 
 .box-1 {
@@ -149,6 +149,48 @@ nav ul li {
 
 
 .box-4 {
+  display: inline-block;
+  width: 360px;
+  height: 280px;
+  background-color: #d8d8d8;
+  background-size: cover;
+  background-image: url("../img/etri/thumb.png");
+  background-repeat: no-repeat;
+}
+
+
+.box-5 {
+  display: inline-block;
+  width: 360px;
+  height: 280px;
+  background-color: #d8d8d8;
+  background-size: cover;
+  background-image: url("../img/etri/thumb.png");
+  background-repeat: no-repeat;
+}
+
+
+.box-6 {
+  display: inline-block;
+  width: 360px;
+  height: 280px;
+  background-color: #d8d8d8;
+  background-size: cover;
+  background-image: url("../img/etri/thumb.png");
+  background-repeat: no-repeat;
+}
+
+.box-7 {
+  display: inline-block;
+  width: 360px;
+  height: 280px;
+  background-color: #d8d8d8;
+  background-size: cover;
+  background-image: url("../img/seven/thumb.png");
+  background-repeat: no-repeat;
+}
+
+.box-8 {
   display: inline-block;
   width: 360px;
   height: 280px;
