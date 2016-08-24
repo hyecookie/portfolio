@@ -332,6 +332,14 @@ nav ul li {
 }
 
 
+.project-contents-gif-shadow {
+  max-width: 374px;
+  margin: auto;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+}
+
+
+
 .project-contents-video {
   max-width: 780px;
   margin: auto;
