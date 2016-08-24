@@ -66,10 +66,7 @@ header {
 }
 
 .divider {
-  max-width: 80px;
-  min-height: 2px;
-  margin: 20px 0;
-  background-color: #555555;
+  margin: 96px auto;
 
 }
 
