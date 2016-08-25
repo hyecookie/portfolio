@@ -65,9 +65,13 @@ header {
   -webkit-font-smoothing: antialiased;
 }
 
+.divider_main {
+  margin: 96px auto;
+}
+
+
 .divider {
   margin: 24px auto 0;
-
 }
 
 nav ul {
