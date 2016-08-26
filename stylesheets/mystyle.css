@@ -148,16 +148,26 @@ nav ul li {
 }
 
 
-.box-shopping {
+.box-shop{
   display: inline-block;
   width: 360px;
   height: 280px;
   background-color: #d8d8d8;
   background-size: cover;
-  background-image: url("../img/shop/thumb.png");
+  background-image: url("../img/shop/head.png");
   background-repeat: no-repeat;
 }
 
+
+.box-food {
+  display: inline-block;
+  width: 360px;
+  height: 280px;
+  background-color: #d8d8d8;
+  background-size: cover;
+  background-image: url("../img/food/thumb.png");
+  background-repeat: no-repeat;
+}
 
 
 .box-4 {
@@ -208,7 +218,7 @@ nav ul li {
   height: 280px;
   background-color: #d8d8d8;
   background-size: cover;
-  background-image: url("../img/whisper/thumb.png");
+  background-image: url("../img/whisper/thumb2.png");
   background-repeat: no-repeat;
 }
 
