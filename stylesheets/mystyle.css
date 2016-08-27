@@ -109,14 +109,6 @@ nav ul li {
 
 
 
-.project-cell {
-  display: inline-block;
-  width: 360px;
-  height: 280px;
-  background-color: #d8d8d8;
-  margin: 16px 8px;
-}
-
 .box-1 {
   display: inline-block;
   width: 360px;
@@ -243,8 +235,41 @@ nav ul li {
   background-repeat: no-repeat;
 }
 
+.box-insta {
+  transition: all 0.3s ease-out;
+  opacity: 0.6;
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  background-size: cover;
+  background-image: url("../img/insta.png");
+  background-repeat: no-repeat;
+}
+
+.box-insta:hover{
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+
+.box-drb {
+  transition: all 0.3s ease-out;
+  opacity: 0.6;
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  background-size: cover;
+  background-image: url("../img/drb.png");
+  background-repeat: no-repeat;
+}
+
+.box-drb:hover{
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+
 
 .project-area {
+  transition: all 0.3s ease-out;
   opacity: 0;
   vertical-align: middle;
   background-color: rgba(0, 0, 0, 0.2) ;
@@ -377,6 +402,28 @@ nav ul li {
   padding: 72px 32px;
   background-color: #fbfbfb;
 }
+
+
+
+.project-cell {
+  display: inline-block;
+  width: 360px;
+  height: 280px;
+  background-color: #d8d8d8;
+  margin: 16px 8px;
+}
+
+.project-cell-outlink {
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  margin: 16px 8px;
+}
+
+
+
+
+
 
 .project-ui-cell-area {
   margin: auto;
