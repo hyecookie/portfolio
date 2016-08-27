@@ -212,6 +212,18 @@ nav ul li {
   background-repeat: no-repeat;
 }
 
+.box-proto {
+  display: inline-block;
+  width: 360px;
+  height: 280px;
+  background-color: #d8d8d8;
+  background-size: cover;
+  background-image: url("../img//thumb2.png");
+  background-repeat: no-repeat;
+}
+
+
+
 
 .box-out {
   display: inline-block;
