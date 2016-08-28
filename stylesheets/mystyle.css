@@ -623,6 +623,21 @@ nav ul li {
   color: #fff;
 }
 
+.project-head-title-black {
+  width: 100%;
+  font-family: 'Source+Sans+Pro', sans-serif;
+  vertical-align: middle;
+
+  float: left;
+  margin: 0px;
+  padding: 208px 32px 4px 196px;
+  text-align: left;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
 .project-head-discription {
   width: 100%;
   font-family: 'Source+Sans+Pro', sans-serif;
@@ -636,6 +651,21 @@ nav ul li {
   line-height: 1.4em;
   font-weight: normal;
   color: #fff;
+}
+
+
+.project-head-discription-black {
+  width: 100%;
+  font-family: 'Source+Sans+Pro', sans-serif;
+  vertical-align: middle;
+  float: left;
+  margin: 0px;
+  padding: 4px 48px 48px 196px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.3em;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 
