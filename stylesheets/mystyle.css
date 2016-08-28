@@ -721,8 +721,8 @@ nav ul li {
 
 
 .nav-style a:link {
+  transition: all 0.3s ease-out;
   color: #222222;
-
   text-decoration: none;
 }
 
@@ -749,27 +749,38 @@ nav ul li {
   vertical-align: middle;
 }
 
+
 .site-go{
-  /*float: inherit;*/
   text-align: center;
   margin: auto;
-  padding: 0 16px;
-}
-
-.site-go a:link {
-  /*text-decoration: none;*/
+  padding: 16px 0;
   color: #a9a9a9;
 }
 
-.site-go a:hover {
-  color: #d1ba7b;
-  transition: all 0.3s ease-out;
+
+.site-go-left{
+  text-align: left;
+  margin: auto;
+  padding: 16px 0;
+  color: #a9a9a9;
 }
 
+.site-go, .site-go-left a:link{
+  /*float: inherit;*/
+  transition: all 0.25s ease-in;
+  text-align: left;
+  margin: auto;
+  padding: 16px 0;
+}
 
-.site-go a:visited {
+.site-go, .site-go-left a:visited {
+  color: #a9a9a9;
   text-decoration: none;
-  color: #a9a9a9;
+}
+
+.site-go, .site-go-left a:hover {
+  transition: all 0.25s ease-out;
+  color: #d1ba7b;
 }
 
 
