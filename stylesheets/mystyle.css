@@ -623,11 +623,10 @@ nav ul li {
   color: #fff;
 }
 
-.project-head-title-black {
+.project-head-title-b {
   width: 100%;
   font-family: 'Source+Sans+Pro', sans-serif;
   vertical-align: middle;
-
   float: left;
   margin: 0px;
   padding: 208px 32px 4px 196px;
@@ -654,7 +653,7 @@ nav ul li {
 }
 
 
-.project-head-discription-black {
+.project-head-discription-b{
   width: 100%;
   font-family: 'Source+Sans+Pro', sans-serif;
   vertical-align: middle;
