@@ -390,13 +390,6 @@ nav ul li {
 }
 
 
-.project-contents-img4 {
-  max-width: 1180px;
-  position: relative;
-  margin: auto;
-  padding: 72px 0px 0px 0px;
-}
-
 
 .project-contents-shadow {
   max-width: 780px;
@@ -413,12 +406,7 @@ nav ul li {
 }
 
 
-.project-contents-gif-shadow-264 {
-  max-width: 264px;
-  margin: auto;
-  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
 
-}
 
 
 .project-contents-video {
@@ -472,7 +460,6 @@ nav ul li {
   max-width: 360px;
   padding: 0 32px;
 }
-
 
 
 .project-ui-none {
