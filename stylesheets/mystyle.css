@@ -238,6 +238,7 @@ nav ul li {
 
 .cv-description{
   margin: 0;
+  padding: 0 16px;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5em;
@@ -247,7 +248,7 @@ nav ul li {
 
 .cv-description-date {
   margin: 0;
-  /*font-style: italic;*/
+  padding: 0 16px;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.5em;
