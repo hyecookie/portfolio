@@ -405,13 +405,13 @@ nav ul li {
 }
 
 
-.box-about {
+.box-whisper {
   display: inline-block;
   width: 360px;
   height: 280px;
   background-color: #d8d8d8;
   background-size: cover;
-  background-image: url("../img/about/head.png");
+  background-image: url("../img/whisper/thumb2.png");
   background-repeat: no-repeat;
 }
 
