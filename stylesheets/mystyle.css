@@ -156,7 +156,15 @@ header {
 
 
 
-
+.head-festival {
+  display: inline-block;
+  max-width: 100%;
+  height: 560px;
+  background-color: #d8d8d8;
+  background-size: cover;
+  background-image: url("../img/festival/head.png");
+  background-repeat: no-repeat;
+}
 
 
 .head-about {
@@ -365,13 +373,13 @@ nav ul li {
   background-repeat: no-repeat;
 }
 
-.box-whisper {
+.box-festival {
   display: inline-block;
   width: 360px;
   height: 280px;
   background-color: #d8d8d8;
   background-size: cover;
-  background-image: url("../img/whisper/thumb2.png");
+  background-image: url("../img/festival/thumb.png");
   background-repeat: no-repeat;
 }
 
