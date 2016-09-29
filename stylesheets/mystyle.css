@@ -50,6 +50,16 @@ header {
   margin-top: -10px
 }
 
+.head-musico {
+  display: inline-block;
+  max-width: 100%;
+  height: 560px;
+  background-size: cover;
+  background-image: url("../img/musico/head.png");
+  background-repeat: no-repeat;
+}
+
+
 
 .head-shop {
   display: inline-block;
@@ -265,10 +275,6 @@ nav ul li {
 }
 
 
-
-
-
-
 .project {
   max-width: 1180px;
   margin: auto;
@@ -276,6 +282,17 @@ nav ul li {
   text-align: center;
 }
 
+
+
+.box-musico {
+  display: inline-block;
+  width: 360px;
+  height: 280px;
+  background-color: #d8d8d8;
+  background-size: cover;
+  background-image: url("../img/musico/thumb.png");
+  background-repeat: no-repeat;
+}
 
 
 .box-1 {
