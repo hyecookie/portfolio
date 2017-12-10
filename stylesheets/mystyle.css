@@ -1,9 +1,7 @@
 <style>
-
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
-
 </style>
 
 body {
@@ -72,6 +70,18 @@ header {
   background-image: url("../img/musico/head2.png");
   background-repeat: no-repeat;
 }
+
+.head-alyac {
+  display: inline-block;
+  max-width: 100%;
+  height: 560px;
+  background-size: cover;
+  background-image: url("../img/alyac/intro.png");
+  background-repeat: no-repeat;
+}
+
+
+
 
 .link {
     text-align: center;
@@ -215,7 +225,7 @@ header {
   display: table-cell;
   margin: 0px;
   padding: 0 20px;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: "Montserrat", sans-serif;*/
   font-weight: bold;
   color: #d1ba7b;
   font-size: 28px;
@@ -303,6 +313,20 @@ nav ul li {
   position: relative;
   text-align: center;
 }
+
+.box-alyac {
+  display: inline-block;
+  width: 360px;
+  height: 280px;
+  background-color: #d8d8d8;
+  background-size: cover;
+  background-image: url("../img/alyac/thumb.png");
+  background-repeat: no-repeat;
+}
+
+
+
+
 
 .box-secure {
   display: inline-block;
